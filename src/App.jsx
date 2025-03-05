@@ -48,6 +48,7 @@ function App() {
     <div>
       <Header />
       <Catalog />
+      <Footer />
     </div>
   );
 }
@@ -74,4 +75,7 @@ function Product() {
   return <li>Product</li>;
 }
 
+function Footer() {
+  return <Footer>Footer</Footer>;
+}
 export default App;
