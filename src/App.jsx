@@ -47,6 +47,7 @@ function App() {
   return (
     <div>
       <Header />
+      <Catalog />
     </div>
   );
 }
@@ -57,6 +58,20 @@ function Header() {
       <h1>Electronik Store</h1>
     </header>
   );
+}
+
+function Catalog() {
+  return (
+    <main>
+      <ul>
+        <Product />
+      </ul>
+    </main>
+  );
+}
+
+function Product() {
+  return <li>Product</li>;
 }
 
 export default App;
