@@ -72,7 +72,16 @@ function Catalog() {
 }
 
 function Product() {
-  return <li>Product</li>;
+  return (
+    <li>
+      <img src="/laptop.png" alt="" />>
+      <div>
+        <h3></h3>
+        <p></p>
+        <span></span>
+      </div>
+    </li>
+  );
 }
 
 function Footer() {
